@@ -37,7 +37,7 @@ To get started with the project, follow these steps:
     ```
 
 2. **Frontend Setup**:
-    - Navigate to the frontend directory and install dependencies:
+    - Install dependencies:
         ```bash
         npm install
         ```
@@ -48,7 +48,7 @@ To get started with the project, follow these steps:
         ```
 
 3. **Backend Setup**:
-    - Navigate to the backend directory and set up a virtual environment:
+    - Navigate to the other terminal and set up a virtual environment:
         ```bash
         python -m venv venv
         source venv/bin/activate  # On Windows use `venv\Scripts\activate`

@@ -1,0 +1,83 @@
+/* Form Container */
+.form-container {
+    width: 40%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form container */
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, min(200px,) 1fr);
+    gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 15px;
+}
+.form-container p{
+    text-align: center;
+}
+
+/* Form Inputs */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="date"],
+.form-container select,
+.form-container textarea {
+    width: 100%; /* Adjust width */
+    padding: 15px; /* Adjust padding */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px; /* Add margin between each input */
+}
+
+/* Gender Selector */
+.form-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333" width="18px" height="18px"><path d="M12 5.546v12.91l6.055-6.055 1.415 1.414-7.528 7.527-7.528-7.527 1.415-1.414L12 18.456V5.546z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+}
+
+/* Textarea */
+.form-container textarea {
+    resize: none;
+}
+
+.hh{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* Checkbox Label */
+.form-container label {
+    display: block;
+    margin-bottom: 10px; /* Add margin between each label */
+}
+
+/* Checkbox Input */
+.form-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Submit Button */
+.form-container button {
+    grid-column: span 2;
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}

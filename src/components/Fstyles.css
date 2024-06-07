@@ -1,0 +1,100 @@
+.footer{
+    padding: 4rem 6rem;
+    background: #000;
+    color: #fff;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top h1{
+    font-size: 2.2rem;
+}
+
+.top p{
+    font-size: 1.5rem;
+}
+
+.top i{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.top i:hover{
+    color: #01959a;
+}
+
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 1rem 0 0.rem 0;
+    margin-left: 0rem;
+}
+
+.bottom ul li{
+    margin-left: 2.3rem;
+    justify-content: center;
+    list-style-type: none !important;
+}
+
+.bottom div h4{
+    margin-bottom: 1rem;
+}
+
+.bottom div ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-gap: 1rem; /* Adjust the gap between columns */
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.bottom .em{
+    padding: 1px 2px 1px 20px;
+}
+
+.bottom .pa{
+    padding: 10px 20px 23px;
+}
+
+
+@media screen and (max-width: 850px){
+    .footer{
+        padding: 4rem 2rem;
+    }
+
+    .footer i{
+        margin: 1rem 1rem 0 0;
+
+    }
+
+    .bottom div{
+        width: 50%;
+
+    }
+}

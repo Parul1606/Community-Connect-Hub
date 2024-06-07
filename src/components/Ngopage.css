@@ -1,0 +1,172 @@
+/* Ngopage.css */
+
+/* Common styles */
+.ngo-page {
+    width: 98.9vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.donate-section {
+    margin-bottom: 40px;
+}
+
+.donate-section h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.donate-section p {
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.ngo-section {
+    margin-bottom: 40px;
+}
+
+.ngo-card {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative; /* Position relative for absolute positioning */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.ngo-card:hover {
+    transform: translateY(-5px);
+}
+
+.ngo-info {
+    display: flex;
+    align-items: center;
+}
+
+.ngo-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: contain; /* Ensure the image fits within the container */
+}
+
+.ngo-details {
+    text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.verified-tick {
+    color: #28a745;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.content p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.content a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.angle-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+    display: none; /* Initially hidden */
+}
+
+.angle-icon.active {
+    display: block; /* Display when active */
+}
+
+/* Ngopage.css */
+
+/* Add styles for the donate button */
+.donate-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 60px;
+}
+
+.donate-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .ngo-card {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .ngo-logo {
+        width: 60px; /* Adjust size for smaller screens */
+        height: 60px; /* Adjust size for smaller screens */
+    }
+
+    h3 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .verified-tick {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .content p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .content a {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate-button {
+        bottom: 5px;
+        right: 5px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .ngo-card {
+        position: relative; /* Change position to relative for the button to be relative to the card */
+        margin-bottom: 60px; /* Add extra margin to create space for the button */
+    }
+}

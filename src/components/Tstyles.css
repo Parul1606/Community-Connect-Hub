@@ -1,0 +1,61 @@
+/* OurTeam.css */
+
+.our-team-container {
+    width: 98.9vw;
+    text-align: center;
+    padding: 40px;
+}
+
+.our-team-container h2{
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.ta{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.team-cards {
+    padding-left: 50%;
+    width: 50%;
+    display: grid;
+    padding-bottom: 10px;
+    grid-template-columns: repeat(4, minmax(200px, 1fr)); /* Display 2 cards per row */
+    gap: 40px; /* Add gap between cards */
+    justify-content: center;
+    align-items: center;
+}
+
+.team-card {
+    background-color: #f9f9f9; /* Card background color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow to cards */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.member-image {
+    width: 100px; /* Adjust member image width */
+    height: 100px; /* Adjust member image height */
+    border-radius: 50%; /* Make member image circular */
+    margin: 0 auto 10px; /* Center member image */
+}
+
+.member-name {
+    text-align: center;
+    font-size: 20px; /* Adjust member name font size */
+    color: #333; /* Member name color */
+    margin: 10px 0; /* Adjust margin to center the name */
+    padding: 0; /* Remove padding */
+}
+
+.member-role {
+    font-size: 17px; /* Adjust member role font size */
+    color: #666; /* Member role color */
+    margin-top: 5px;
+    padding: 2px 25px; 
+}

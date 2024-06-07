@@ -73,7 +73,6 @@ To get started with the project, follow these steps:
 ## Usage
 - Visit `http://localhost:3000` to access the frontend of the application.
 - Use the navigation bar to explore different sections such as Donate, Membership, Visualizations, and Poverty Predictions.
-- Admin users can manage NGO listings and view donation statistics.
 
 ## Contributing
 We welcome contributions from the community! Here’s how you can help:
